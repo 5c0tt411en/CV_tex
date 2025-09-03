@@ -1,0 +1,269 @@
+\documentclass[8pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage{fontspec}
+\usepackage{xeCJK}
+\usepackage[margin=2.5cm]{geometry}
+\usepackage{enumitem}
+\usepackage{url}
+\usepackage{parskip}
+\usepackage{lastpage}
+\usepackage{array}
+\usepackage{longtable}
+
+% Font settings
+\setmainfont[Path=font/]{AxisStd-Light.otf}
+\setCJKmainfont[Path=font/]{AxisStd-Light.otf}
+
+% Custom formatting
+\setlength{\parindent}{0pt}
+\setlength{\parskip}{12pt}
+
+% Section formatting
+\usepackage{titlesec}
+\titleformat{\section}
+  {\large\bfseries}
+  {}
+  {0em}
+  {}
+\titlespacing{\section}{0pt}{18pt}{4pt}
+
+% Simple page numbering
+\usepackage{fancyhdr}
+\pagestyle{plain}
+\makeatletter
+\def\ps@plain{%
+  \let\@oddhead\@empty
+  \let\@evenhead\@empty
+  \def\@oddfoot{\hfil\fontsize{6pt}{8pt}\selectfont\thepage\ of \pageref{LastPage}\hfil}%
+  \def\@evenfoot{\hfil\fontsize{6pt}{8pt}\selectfont\thepage\ of \pageref{LastPage}\hfil}%
+}
+\makeatother
+
+% Show page numbers at bottom center
+\pagestyle{plain}
+
+\begin{document}
+
+% Apply the 8pt font size and line spacing
+\fontsize{8pt}{16pt}\selectfont
+
+% Header - placed before CJK environment
+\hfill{\small Updated: Sep. 2025}
+
+\vspace{10pt}
+
+{\Large \textbf{Scott Allen}}
+\vspace{-10pt}
+
+アーティスト，像楽家，生像作家
+\vspace{-10pt}
+
+mail@scottallen.ws | https://scottallen.ws
+\vspace{-6pt}
+
+1986年生まれ．2016年情報科学芸術大学院大学（IAMAS）修了．人の想像力と視覚装置やテクノロジーの関係に着目し，投影装置の仕組みに物理的に介入し変調したり，日用品に手を加えることで像を作るスタイルでインスタレーション制作・パフォーマンス活動を行なう．また，深層学習を用いた作品制作やAIと協奏するライブコーディングユニットAi.stepとしてもライブ活動を行なう．主な受賞に，CVPR 2024 ``AI Art Gallery''\, The Best Artworks，デジタル・ショック賞2019受賞，やまなしメディア芸術アワード2021優秀賞受賞など．近年参加の国際フェスティバルに「FILE 2025」(São Paulo, Brazil)，「Scopitone 2019」(Île de Nantes, France)，「MUTEK Montréal Édition 21」(ONLINE Platform, Canada)などがある．
+
+\section*{受賞}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2024} & CVPR 2024 ``AI Art Gallery''\, The Best Artworks \\[0.2em]
+\textbf{2023} & NeurIPS 2023 ``Machine Learning for Creativity and Design''\, Artwork Spotlights \\
+& やまなしメディア芸術アワード2023\mbox{-}24 入選 \\[0.2em]
+\textbf{2022} & 文化庁メディア芸術祭テンターテインメント部門 審査員推薦作品 \\
+& Red Dot Design Award 2022, Red Dot Award \\[0.2em]
+\textbf{2021} & 山梨メディア芸術アワード2021 優秀賞 \\
+& アジアデジタルアートアワード2021 入賞 \\[0.2em]
+\textbf{2019} & デジタルショック賞 受賞 \\[0.2em]
+\textbf{2017} & 第20回岡本太郎現代芸術賞 入選 \\
+\end{tabular}
+
+\section*{国際学会採択}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2025} & CVPR 2025 ``AI Art Gallery''\, The Best Artworks \\[0.2em]
+\textbf{2024} & CVPR 2024 ``AI Art Gallery''\, \\
+& SIGGRAPH ASIA 2024 ART GALLERY \\[0.2em]
+\textbf{2023} & NeurIPS 2023 ``Machine Learning for Creativity and Design''\, \\[0.2em]
+\textbf{2022} & NeurIPS 2022 ``Machine Learning for Creativity and Design''\, \\[0.2em]
+\textbf{2021} & CVPR2021 ``The computer vision art gallery''\, \\[0.2em]
+\textbf{2020} & SIGGRAPH ASIA 2020 ART GALLERY \\
+\end{tabular}
+
+\section*{競争的資金，事業採択}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2024\mbox{-}27} & ``暗所におけるARを実現する手法と暗所におけるAR表現の探究''\ (平林真実, Scott Allen, 白石覚也．日本学術振興会科学研究費助成事業 基盤研究(C)) \\[0.2em]
+\textbf{2021} & ``AIのまなざしと作るPhotobook ーAIを通じて世界を再発見しようー''\ (Scott Allen, 中嶋亮介．岐阜クリエーション工房2021) \\
+\end{tabular}
+
+\newpage
+\section*{展覧会}
+
+\begin{longtable}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2025} & ``魔法の美術館2025名古屋''\, 松坂屋美術館, Kyoto \\
+& ``魔法の美術館2025上田''\, サントミューゼ上田市立美術館, Kyoto \\
+& ``FILE 2025''\, São Paulo, Brazil \\
+& ``魔法の美術館2025京都''\, 京都高島屋グランドホール, Kyoto \\
+& ``デザインあ展 neo''\, TOKYO NODE GALLERY A/B/C | Scott Allen + パーフェクトロン, 『わかりましたの練習』『ありきかたログ』, Tokyo \\
+& ``メディアカラ作品展''\, GALLERY METABO, Kyoto \\[0.2em]
+\textbf{2024} & ``はり''\, Gallery 35, Kyoto \\
+& ``CVPR 2024 AI Art Gallery''\, Seattle Convention Center, U.S.A. \\
+& ``CO-''\, 京都場, Kyoto \\
+& ``やまなしメディア芸術アワード2023\mbox{-}24 入選作品展''\, 小さな蔵の美術館, Yamanashi \\[0.2em]
+\textbf{2023} & ``灯火''\, studio doué, Kyoto \\
+& ``地味''\, 新宿眼科画廊, Tokyo \\[0.2em]
+\textbf{2022} & ``ICC アニュアル2022 生命的なものたち''\, NTT Intercommunication Center, Tokyo \\
+& ``アジアデジタルアートアワード2021 受賞展''\, 福岡市美術館, Fukuoka \\
+& ``やまなしメディアメディア芸術アワード2021 受賞展''\, 山梨県県立美術館, Yamanashi \\
+& ``Visible x Invisible ──Big Data and Next Generation Information Representation''\, TUB, Tokyo \\[0.2em]
+\textbf{2021} & ``Alternative Dimension''\, TIERS GALLERY, Tokyo \\
+& ``CVPR 2021 COMPUTER VISION ART GALLERY''\, ONLINE, U.S.A \\
+& ``Meta mo(nu)ment 2021''\, (Ai.step) ONLINE, Gifu \\[0.2em]
+\textbf{2020} & ``SIGGRAPH ASIA ART GALLERY''\, ONLINE, Korea \\
+& ``TOKIWA Fantasia''\, Tokiwa park, Yamaguchi | クワクボリョウタ, 『残像』（キャプチャ＋プログラミング担当） \\
+& ``FLARE2020''\, (Ai.step) ONLINE, China \\[0.2em]
+\textbf{2019} & ``装置とは限らない''\, 東京藝術大学美術館 陳列館, Tokyo \\
+& ``Scopitone 2019''\, Île de Nantes, Nantes(France) \\
+& ``TOKYO MIDTOWN × ARS ELECTRONICA 未来の学校祭''\, 東京ミッドタウン, Tokyo | ウラニウム, 『虚構大学SFC』（センシング，ディスプレイプログラミング担当） \\[0.2em]
+\textbf{2018} & ``5Rooms – けはいの純度''\, 神奈川県民ホールギャラリー, Kanagawa \\
+& ``デザインあ展 in 東京''\, 日本科学未来館, Tokyo | パーフェクトロン, 『全国名字かずくらべ』（プログラミング担当） \\
+& ``ROPPONGI ART NIGHT 2018''\, 東京ミッドタウン, Tokyo | 廣川 玉枝 × 湯浅 永麻 × 脇田 玲，『XHIASMA』（レーザー担当） \\
+& ``デザインあ展 in 富山''\, 富山県美術館, Toyama | パーフェクトロン, 『全国名字かずくらべ』（プログラミング担当） \\[0.2em]
+\textbf{2017} & ``大垣ビエンナーレ2017''\, IAMAS, Gifu| artDKT 『artDKT Viewerによる三輪眞弘作品の再制作に関するミーティングの記録』（UIプログラミング担当） \\
+& ``MEET at ART''\, PAVILION中目黒, Tokyo | LENS, （映像担当） \\
+& ``第20回岡本太郎現代芸術賞展''\, 岡本太郎美術館, Kanagawa \\[0.2em]
+\textbf{2016} & ``単位展 in 台北展''\, 松山文創園區 五號倉庫, Taipei | パーフェクトロン, 『りんごってどれくらい？』（プログラミング担当） \\
+& ``車輪の再発明プロジェクト''\, ICC（NTTインターコミュニケーションセンター）, Tokyo \\
+& ``IAMAS2016''\, IAMAS, Gifu \\[0.2em]
+\textbf{2015} & ``ICSAF''\, 京都精華大学, Kyoto \\
+& ``単位展 ー あれくらい それくらい どれくらい？''\, 21\_21 DESIGN SIGHT, Tokyo | パーフェクトロン, 『りんごってどれくらい？』（プログラミング担当） \\
+\end{longtable}
+
+\section*{論文}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2025} & 書字障害への当事者的理解に対する体験型作品の可能性 (足立侑享咲, Scott Allen．インタラクション2025) \\
+& デジタルファブリケーションを組み合わせたフロッタージュ技法の拡張と応用 (廣瀬茅香里, Scott Allen．インタラクション2025) \\
+& 言葉の多層化による内省の変化と新たな鑑賞体系の検討 (與那嶺若奈, Scott Allen．インタラクション2025) \\
+& 外部からの介入による既製品システムの創造的誤用と 表現への応用 (藤田麟太郎, Scott Allen．インタラクション2025) \\[0.2em]
+\textbf{2024} & 薄暗い場所におけるAR表現のための手法とコンテンツの検討 (平林真実, Scott Allen, 白石覚也．エンタテインメントコンピューティングシンポジウム2024) \\
+& 画像や文章のデペイズマンがゲーム体験に与える影響 (安部翔太, Scott Allen．エンタテインメントコンピューティングシンポジウム2024) \\
+& 音声認識のブラックボックスシステムにおける簡易的介入法の研究と創作物への応用 (藤田麟太郎, Scott Allen．インタラクション2024) \\[0.2em]
+\textbf{2023} & デジタル技術によるビジュアライズを活用した創造的対話の研究 (徳永竜也, Scott Allen, 徳井直生, 三澤直加．日本デザイン学会第70回研究発表大会) \\[0.2em]
+\textbf{2014} & 鉄道などの狭い移動空間を利用したVJ・デコレーション表現の提案 (青木聖也，平林真実，城一裕，金山智子．エンタテインメントコンピューティングシンポジウム2014) \\
+\end{tabular}
+
+% \section*{学会発表（「国際学会採択」「論文」以外の口頭発表等）}
+
+% \begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+% \textbf{2012} & 酸素ラジカルを用いて作製したCeO2薄膜の電子状態 (青木聖也, 樋口透, W. Yang, P. Velasco, J. Chen, J. Guo．日本放射光学会，ポスター発表) \\[0.2em]
+% \textbf{2011} & 酸素ラジカルを用いて作製したCeO2スパッタ薄膜の電子・価数状態 (樋口透, 青木聖也, 本庄史幸, Wei-Cheng Wang, Yi-Hau Liu, Per-Anders Glans, Jinghua Guo．固体イオニクス討論会．口頭発表) \\[0.2em]
+% \textbf{2009} & Electronic structure of Rb3H(SeO4)2 by soft X-ray spectroscopy (S. Aoki, T. Higuchi, E. Magome, J. Guo, M. Komukae．The 3rd UT Horiba International Symposium and The 11th ISSP International Symposium (ISSP-11) on Hydrogen and Water in Condensed Matter Physics．口頭発表) \\
+% & 酸素ラジカルを用いて作製したTiO2/Al2O3スパッタ薄膜の光触媒性と光親水性 (本庄史幸, 青木聖也, 行川洋平, 南川真樹, 樋口透．応用物理学会．口頭発表) \\
+% & 軟X線分光によるRb3H(SeO4)2の電子構造 (樋口透, 青木聖也, 服部武志, Yi-Sheng Liu, Jeng-Lung Chen, Jingha Guo．応用物理学会．ポスター発表) \\
+% \end{tabular}
+
+\section*{出演}
+
+\begin{longtable}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2024} & 「石川九楊大全」展 開催記念コンサート 書譜楽「歎異抄 No. 18 いはんや悪人をや」``電子音楽奏'' 旧東京音楽学校奏楽堂, Tokyo \\
+& SUPER DOMMUNE``混沌に愛／遭う！''\,(Ai.step) SUPER DOMMUNE, Tokyo \\
+& ``サイバーターン4''\, Circus, Tokyo \\[0.2em]
+\textbf{2023} & ``Proof of X After Party''\,(Ai.step) Saloon Daikanyama, Tokyo \\
+& ``Computational Creativity Lab. x NxPC Lab.''\,(Ai.step) Circus Tokyo, Tokyo \\[0.2em]
+\textbf{2022} & ``Sapporo Creative Community Vol.3''\,(Ai.step) poool, Hokkaido \\[0.2em]
+\textbf{2021} & ``PRECTXE 2020''\,(Ai.step) ONLINE Platform, Korea \\
+& ``MUTEK Montréal Édition 21''\,(Ai.step) MUTEK Montréal Édition 21 ONLINE Platform, Montréal, Canada. \\
+& ``tone\#2 Performance collabolating with AI''\, (Ai.step), YouTube Live, ONLINE \\
+& ''channel \#22″(Ai.step) YouTube Live, ONLINE \\
+& ``MMFS2020 x DOMMUNE''\,(Ai.step) ONLINE, Tokyo \\
+& ``The Yebisu International Festival for Art \& Alternative Visions 2020 x Digital Choc <augumented body>''\,(Ai.step) Tokyo Photographic Art Museum, Tokyo \\[0.2em]
+\textbf{2020} & ``PRECTXE 2020''\,(Ai.step) ONLINE Platform, Korea \\
+& ``MUTEK Montréal Édition 21''\,(Ai.step) MUTEK Montréal Édition 21 ONLINE Platform, Montréal, Canada. \\
+& ``tone\#2 人工知能と協奏するパフォーマンス''\, (Ai.step), YouTube Live, ONLINE \\
+& ''channel \#22″(Ai.step) YouTube Live, ONLINE \\
+& ``MMFS2020 x DOMMUNE''\,(Ai.step) ONLINE(多摩美術大学情報デザイン棟), Tokyo \\
+& ``恵比寿映像祭 x デジタル・ショック「拡張する身体」''\,(Ai.step) 恵比寿ガーデンホール, Tokyo \\[0.2em]
+\textbf{2019} & ``Wired Innovation Award''\, (Ai.step) TOLOT, Tokyo \\
+& ``ORF2020''\, Tokyo Midtown, Tokyo \\
+& ``Interim Report Edition4''\, (Ai.step) Circus, Tokyo \\
+& ``文化庁メディア芸術祭 x MUTEK.JP''\, (Ai.step) 日本科学未来館, Tokyo \\
+& ``DIGITAL CHOC x MUTEK 神楽音 Master Class''\, 神楽音, Tokyo \\
+& ``DOMMUNE The Synthesizer Academy''\, 渋谷, Tokyo \\
+& ``果てのファンタジア''\, 港文化小劇場, Aichi \\[0.2em]
+\textbf{2018} & ``5Rooms – けはいの純度''\, (像楽) 神奈川県民ホールギャラリー, Kanagawa \\
+& ``Algorave Tokyo x NxPc. Lab(IAMAS)''\, Circus, Tokyo \\
+& ``Conjunction''\, 神楽音, Tokyo \\
+& ``channel \#19''\, Super deluxe, Tokyo \\
+& ``Interim Report Edition3''\, (Ai.step) Circus, Tokyo \\
+& ``Algorave Tokyo''\, Anagra, Tokyo \\
+& ``ADIRECTOR CHANNEL''\, Doll house, Tokyo \\
+& ``Philharmonic liminales''\, Circus, Tokyo \\
+& ``メディア芸術祭 x MUTEK.JP''\, Super deluxe, Tokyo \\
+& ``Source Code''\, 神楽音, Tokyo \\
+& ``Algorave Tokyo''\, (Ai.step) 落合スープ, Tokyo \\
+& ``Nine tommorows''\, (Ai.step) ,Koshu China \\
+& ``channel \#18''\, Super deluxe, Tokyo \\
+& ``果てのファンタジア''\, 港文化小劇場, Aichi \\[0.2em]
+\textbf{2017} & ``Interim Report Edition2''\, Circus, Tokyo \\
+& ``Interim Report''\, Circus, Tokyo \\
+& ``channel \#16''\, Super deluxe, Tokyo \\
+& ``NxPC.Live vol.27 IAMAS20th''\, ラフォーレ原宿, Tokyo \\
+& ``NxPC Live in Tokyo''\, Circus, Tokyo \\[0.2em]
+\textbf{2016} & ``OOPARTS 2016''\, opening/ending video CLUB-G, Gifu \\
+& ``channel \#15''\, Super deluxe, Tokyo \\[0.2em]
+\textbf{2015} & ``waypoint 2015''\, opening/ending video 豊島公会堂, Tokyo \\
+& ``OOPARTS 2015''\, opening/ending video CLUB-G, Gifu \\
+& ``果てのファンタジア''\, ちくさ座, Aichi \\[0.2em]
+\textbf{2014} & ``EclecticxBias'' Digital Art Center, Taipei \\
+& ``OOPARTS 2014''\, opening/ending video CLUB-G, Gifu \\
+& ``RedBull Music Academy Presents EMAF TOKYO 2014'' LIQUID ROOM, Tokyo \\
+\end{longtable}
+
+\section*{講演，ワークショップ}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2025} & ``メディアカラ作品展，トークイベント''\,(w/ 木原共, 安部翔太) GALLRY METABO, Kyoto \\[0.2em]
+\textbf{2024} & ``はり，トークイベント''\,(w/ 石橋友也, 安部翔太) Gallery 35, Kyoto \\
+& 「石川九楊大全」展 開催記念コンサート 書譜楽「歎異抄 No. 18 いはんや悪人をや」``解説'' 旧東京音楽学校奏楽堂, Tokyo \\
+& 東京芸術大学メディア特論``生成AIと『イメージ』の対話''\,(w/ Yuma Kishi) YAU, Tokyo \\
+& ``CO-，トークイベント''\,(w/ 谷口暁彦, 海舟) 京都場, Kyoto \\[0.2em]
+\textbf{2023} & ``書から音を取り出す''\,(w/ 塚田哲也) studio doué, Kyoto \\
+& ``つくるからみるまで''\,(w/ 石川将也) studio doué, Kyoto \\
+& ``Artist talk''\,(w/ johnsmith, 吉田崇英) 新宿眼科画廊, Tokyo \\[0.2em]
+\textbf{2022} & ``Sapporo Creative Community Vol.3''\,(Ai.step) poool, Hokkaido \\[0.2em]
+\textbf{2021} & ``Collaborate with AI''\, TKP Sapporo Conference Center, Sapporo \\
+& ``TDSW Intro to Deep Learning for Graphics Programmers'' , YouTube Live, ONLINE \\[0.2em]
+\textbf{2020} & ``tone\#2 人工知能と協奏するパフォーマンス''トーク＋解説 (Ai.step), YouTube Live, ONLINE \\
+& ``恵比寿映像祭 x デジタル・ショック「拡張する身体」''プレトーク (Ai.step) 恵比寿ガーデンホール, Tokyo \\
+& ``プロッターとProcessingを用いたコンピュータ制御ドローイング'' 多摩美術大学情報デザイン学科 Tokyo \\[0.2em]
+\textbf{2019} & ``プロッターとProcessingを用いたコンピュータ制御ドローイング'' 東京藝術大学AMC, Tokyo \\
+& ``DOMMUNE The Synthesizer Academy'' DOMMUNE, Tokyo \\
+& ``Processing Community Day 2019 Tokyo'' LODGE(Yahoo! JAPAN), Tokyo \\
+& ``Rapid Prototyping Workshop'' Tama Art University(Information Design), Tokyo \\[0.2em]
+\textbf{2018} & ``Artist talk''\, 神奈川県民ホールギャラリー, Kanagawa \\[0.2em]
+\textbf{2017} & ``Artist talk'' 岡本太郎美術館, Kanagawa \\[0.2em]
+\textbf{2016} & ``キャリアセミナー''情報科学芸術大学院大学 (IAMAS), Gifu \\
+\end{tabular}
+
+\section*{学歴}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2016} & MA, 情報科学芸術大学院大学 (IAMAS) メディア表現研究科修了 \\[0.2em]
+\textbf{2011} & MSc, 東京理科大学大学院理学研究科修了 \\[0.2em]
+\textbf{2009} & BSc, 東京理科大学理学部卒業 \\
+\end{tabular}
+
+\section*{職歴}
+
+\begin{tabular}{@{}p{1.2cm}@{\hspace{0.5cm}}p{14cm}@{}}
+\textbf{2022-} & 京都精華大学メディア表現学部 専任講師 \\[0.2em]
+\textbf{2021} & 明星大学デザイン学部 非常勤講師 \\[0.2em]
+\textbf{2020-} & 多摩美術大学情報デザイン学科非常勤講師 \\
+& 情報科学芸術大学院大学（IAMAS）非常勤講師 (-23) \\[0.2em]
+\textbf{2019-} & 武蔵野美術大学通信教育課程デザイン情報学科デザインシステムコース非常勤講師 \\[0.2em]
+\textbf{2018-} & 慶應義塾大学環境情報学部非常勤講師 \\[0.2em]
+\textbf{2016\mbox{-}18} & 多摩美術大学情報デザイン学科助手 \\[0.2em]
+% \textbf{2011\mbox{-}14} & 株式会社村田製作所技術事業開発本部研究員 \\
+\end{tabular}
+\end{document}
